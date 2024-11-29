@@ -107,30 +107,42 @@ When you are done developing, don't forget to run `serverless deploy` to deploy 
 
 # Local Development
 
+```
 serverless offline start # Run locally
 serverless offline --host 0.0.0.0 # Run locally and allow external access
+```
 
 # Deployment
 
+```
 serverless deploy # Deploy to AWS
 serverless deploy -v # Verbose deployment
 serverless deploy -f functionName # Deploy single function
+```
 
 # Information
 
+```
 serverless info # Get info about deployed service
 serverless metrics # Get metrics
 serverless logs -f functionName # Get logs for a function
+```
 
 # Development/Testing
 
+```
 serverless invoke local -f functionName # Test function locally
 serverless invoke -f functionName # Test deployed function
+```
 
 # Cleanup
 
+```
 serverless remove # Remove deployed service
+```
 
 # Templates/Init
 
+```
 serverless create --template aws-nodejs # Create new project from template (Node.js)
+```
